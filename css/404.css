@@ -1,0 +1,33 @@
+body{
+    background-color: rgba(26, 26, 26, 1);
+}
+.bloque-grande{
+    background-color: white;
+    width: 700px;
+    position:relative;
+    top: 350px;
+    left: 600px;
+    border-radius: 50px;
+}
+.titulo{
+    text-align: center;
+    font-size:70px;
+    font-family: Quicksand;
+    text-decoration:underline;
+}
+.parrafo{
+    text-align: center;
+    font-size:20px;
+    font-family: Quicksand;
+    position: relative;
+    top: -15px;
+}
+.link{
+    text-align: center;
+    font-size:20px;
+    font-family: Roboto-A;
+    position: relative;
+    top: -15px;
+    left: 240px;
+    color:#4894f7 ;
+}
