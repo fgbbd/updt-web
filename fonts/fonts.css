@@ -9,5 +9,5 @@
 }
 @font-face {
     font-family: Roboto-A;
-    src: url(Roboto-Italic.ttf);
+    src: url(Roboto-Italic.ttf) format("truetype");
 }
