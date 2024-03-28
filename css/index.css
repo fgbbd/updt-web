@@ -72,29 +72,37 @@ h1{
 }
 /* Inicio de botón para unirse */
 .button-link {
-    background-color: blue;
-    color: white;
+    background-color: #248045;
+    color: #fffdf2;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 50px 2px;
     cursor: pointer;
     border: none;
-    border-radius: 12px;
+    border-radius: 3px;
     transition: all 0.3s ease;
+    position: relative;
+    left: 490px;
+    top: -35px;
 }
 
 .button-link:hover {
-    background-color: #3e8e41;
-    color: white;
+    background-color: #14522d;
+    color: #fffdf2;
 }
 
 .button-link:active {
-    background-color: #1a5308;
-    color: white;
-    box-shadow: 0 5px #666;
+    background-color: #248045;
+    color: #fffdf2;
     transform: translateY(4px);
 }
 /* Fin de botón para unirse */
+.invite{
+    border-radius: 8px;
+    position: relative;
+    left: 630px;
+    width: 500px;
+}

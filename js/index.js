@@ -1,4 +1,4 @@
 function changeButton() {
-    document.getElementById("myButton").innerHTML = "Te has unido";
-    document.getElementById("myButton").setAttribute("href", "htttps://google.com");
+    document.getElementById("myButton").innerHTML = "Joined";
+    window.open("https://discord.gg/xXxekfxCQ2","_blank")
 }
