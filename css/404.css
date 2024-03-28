@@ -73,7 +73,7 @@ h1{
 .titulo{
     text-align: center;
     font-size:70px;
-    font-family: Quicksand;
+    font-family: Montserrat-Bold;
     text-decoration:underline;
 }
 .parrafo{
@@ -82,4 +82,8 @@ h1{
     font-family: Quicksand;
     position: relative;
     top: -15px;
+}
+.error-404{
+    width: 500px;
+    padding-left: 35%;
 }
