@@ -11,3 +11,7 @@
     font-family: Roboto-A;
     src: url(Roboto-Italic.ttf) format("truetype");
 }
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(Montserrat-Black.ttf);
+}
