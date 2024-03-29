@@ -8,7 +8,7 @@ function changeButton2() {
 }
 
 function changeButton3() {
-    window.open("ayudante-updt.html","_self")
+    window.open("ayudante-updt/info.html","_self")
 }
 
 function changeButton4() {
