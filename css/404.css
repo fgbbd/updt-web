@@ -20,6 +20,7 @@ body{
 }
 .botones:hover{
     background-color:#D7DBDD ;
+    transition: all 0.5s ease;
 }
 /* Fin barra de navegación */
 .container{
