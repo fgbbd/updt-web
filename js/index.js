@@ -18,3 +18,7 @@ function changeButton4() {
 function changeButton5() {
     window.open("https://updt1.netlify.app/contacto","_self")
 }
+
+function change() {
+    document.getElementById("nitro").innerHTML = "Feliz día de los inocentes no oficial :)";
+}
