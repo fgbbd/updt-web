@@ -8,41 +8,30 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <script src="js/index.js"></script>
-        <script src="js/contacto.js"></script>
-        <!-- Inicio barra de navegación -->
-        <div class="barra-navegacion">
-        <a href="index.html">
-            <img class="updt-banner" src="images/cdn/updt.png" alt="Un Poco de Todo">
-        </a>
-        <button class="botones" onclick="changeButton2()">
-            <img src="images/iconos/inicio.png" alt="Inicio" title="Inicio">
-        </button>
-        <button class="botones" onclick="changeButton3()">
-            <img src="images/iconos/bot.png" alt="Bot" title="Bot">
-        </button>
-    </button>
-    <button class="botones" onclick="changeButton4()">
-        <img src="images/iconos/policia.png" alt="Postulación" title="Postulación">
-    </button>
-    <button class="botones" onclick="changeButton5()">
-        <img src="images/iconos/contacto.png" alt="Contacto" title="Contacto">
-    </button>
-        
-        </div>
-        <!-- Fin barra de navegación -->
-        <div class="container">
-            <h1>CONTACTO</h1>
-            <button class="discord" onclick="contacto1()">
-                <img src="images/iconos/discord.png" alt="Discord" title="https://discord.com/invite/4vvAc87afw">
-                <span class="texto-botones">Servidor externo</span>
-            </button>
-
-            <button class="gmail" onclick="contacto2()">
-                <img src="images/iconos/gmail.png" alt="Gmail" title="updt.servidor@gmail.com">
-                <span class="texto-botones">Gmail</span>
-            </button>
-
-        </div>
+        <script src="https://updt1.netlify.app/js/principal.js"></script>
+	<div class="barra-up">
+		<a href="https://updt1.netlify.app" class="logo">
+			<img class="logo-img" src="https://updt1.netlify.app/images/cdn/updt.png" alt="Un poco de todo" title="Inicio">
+		</a>
+		<button class="invite" onclick="invite()">
+            <img class="invite-img" src="https://updt1.netlify.app/images/iconos/discord-white.png"> <span id="texto-boton" class="invite-text">Unirse</span>
+		</button>
+		<div class="bot-all">
+			<a href="https://updt1.netlify.app/ayudante-updt" target="_self" class="bot">
+				<img class="ayudante-img" src="https://updt1.netlify.app/images/iconos/bot.png" alt="Ayudante UPDT"> <span class="barra-left-text bot-text">Bot</span>
+			</a>
+		</div>
+		<div class="postulaciones-all">
+			<a href="https://updt1.netlify.app/postulacion" target="_self" class="postulaciones">
+				<img class="postulaciones-img" src="https://updt1.netlify.app/images/iconos/policia.png" alt="Postulaciones"> <span class="barra-left-text postulaciones-text">Postulaciones</span>
+			</a>
+		</div>
+		<div class="contacto-all">
+			<a href="https://updt1.netlify.app/contacto" target="_self" class="bot">
+				<img class="contacto-img" src="https://updt1.netlify.app/images/iconos/contacto.png" alt="Conacto"> <span class="barra-left-text bot-text">Contacto</span>
+			</a>
+		</div>
+	</div>
+	<!-- Fin de estructura principal -->
     </body>
 </html>
