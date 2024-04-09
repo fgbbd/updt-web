@@ -3,33 +3,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>Postulación a staff</title>
     <link rel="icon" href="images/updt.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/postulacion.css">
+    <link rel="stylesheet" type="text/css" href="css/principal.css">
     <link rel="stylesheet" href="fonts/fonts.css">
     <meta charset="utf-8">
   </head>
   <body>
-    <script src="js/index.js"></script>
-    <!-- Inicio barra de navegación -->
-    <div class="barra-navegacion">
-    <a href="index.html">
-      <img class="updt-banner" src="images/cdn/updt.png" alt="Un Poco de Todo">
-    </a>
-    <button class="botones" onclick="changeButton2()">
-          <img src="images/iconos/inicio.png" alt="Inicio" title="Inicio">
-      </button>
-    <button class="botones" onclick="changeButton3()">
-          <img src="images/iconos/bot.png" alt="Bot" title="Bot">
-      </button>
-  </button>
-  <button class="botones" onclick="changeButton4()">
-    <img src="images/iconos/policia.png" alt="Postulación" title="Postulación">
-  </button>
-  <button class="botones" onclick="changeButton5()">
-    <img src="images/iconos/contacto.png" alt="Contacto" title="Contacto">
-  </button>
-    
-    </div>
-    <!-- Fin barra de navegación -->
+    <script src="js/principal.js"></script>
+	<div class="barra-up">
+		<a href="https://updt1.netlify.app" class="logo">
+			<img class="logo-img" src="https://updt1.netlify.app/images/cdn/updt.png" alt="Un poco de todo" title="Inicio">
+		</a>
+		<button class="invite" onclick="invite()">
+            <img class="invite-img" src="images/iconos/discord-white.png"> <span id="texto-boton" class="invite-text">Unirse</span>
+		</button>
+		<div class="bot-all">
+			<a href="https://updt1.netlify.app/ayudante-updt" target="_self" class="bot">
+				<img class="ayudante-img" src="images/iconos/bot.png" alt="Ayudante UPDT"> <span class="barra-left-text bot-text">Bot</span>
+			</a>
+		</div>
+		<div class="postulaciones-all">
+			<a href="https://updt1.netlify.app/postulacion" target="_self" class="postulaciones">
+				<img class="postulaciones-img" src="images/iconos/policia.png" alt="Postulaciones"> <span class="barra-left-text postulaciones-text">Postulaciones</span>
+			</a>
+		</div>
+		<div class="contacto-all">
+			<a href="https://updt1.netlify.app/contacto" target="_self" class="bot">
+				<img class="contacto-img" src="images/iconos/contacto.png" alt="Conacto"> <span class="barra-left-text bot-text">Contacto</span>
+			</a>
+		</div>
+	</div>
+	<!-- Fin de estructura principal -->
     <iframe data-tally-src="https://tally.so/embed/woyGdO?transparentBackground=1" loading="lazy" width="100%" height="1000" frameborder="0" marginheight="0" marginwidth="0" title="Postulación a staff"></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
   </body>
 </html>
