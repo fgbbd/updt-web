@@ -17,5 +17,9 @@
 }
 @font-face {
     font-family: avant-gard;
-    src: url(AVGARDD_2.TTF);
+    src: url(AVGARDD_2.TTF) format("truetype");
+}
+@font-face {
+    font-family: avant-gard-light;
+    src: url(AVGARDN_2.TTF) format("truetype");
 }
